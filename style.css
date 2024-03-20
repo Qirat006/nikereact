@@ -1,0 +1,83 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(255, 249, 241) ; ;
+}
+
+.highlight{
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+    
+}
+.navbar{
+    box-shadow: 10px 10px 10px -10px grey ;
+    background-color:rgb(255, 249, 241) ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 800;
+}
+.navbar-brand {
+    padding-left: 6rem;
+}
+.nav-item{
+    font-weight: 600;
+}
+.custom-highlight{
+    color: rgb(255, 123, 0);  
+}
+h1{
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.container-order{
+    order: 2 !important;  
+}
+.container{
+    width: 100vw;
+    box-sizing: border-box
+    
+}
+.btn{
+    height: 50px;
+    width: 110px;
+    margin-top: 0rem;
+     font-family: sans-serif;
+}
+/* .btn :hover{
+    background-color: rgb(186, 186, 193) !important;
+} */
+   
+.order-2{
+    order: 2 !important;
+}
+button{
+    width: 20vw;
+}
+.cards{
+    background-color: rgb(192, 187, 187);
+    margin-top: 9rem;
+    padding: 5rem;
+    padding-top: 2rem;
+
+   
+}
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style:calc(23);
+    font-size: 45px;
+}
+h4{
+    font-weight: bold;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(167, 163, 163);
+}
+.card-body{
+    padding: 1.7rem;
+}
