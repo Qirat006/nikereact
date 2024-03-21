@@ -12,14 +12,16 @@ body{
 .navbar{
     box-shadow: 10px 10px 10px -10px grey ;
     background-color:rgb(255, 249, 241) ;
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 900;
+    z-index: 100; 
+    
 }
 .navbar-brand {
     padding-left: 6rem;
+   
 }
 .nav-item{
     font-weight: 600;
